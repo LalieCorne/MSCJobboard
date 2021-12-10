@@ -1,0 +1,27 @@
+.date {
+    text-align: right;
+}
+
+#ad {
+    margin: 5px;
+    padding: 2px;
+    background-color: #f5e8e7;
+    border-color: #9e4b56;
+    width: 100%;
+}
+
+#ad_title {
+    background-color: #e7d5d7;
+    border-radius: .25rem;
+    max-width: 100% !important;
+}
+
+.ad_link {
+    color : #3f1d21;
+    text-decoration: none;
+}
+
+.ad_link:hover {
+    color : #9e4b56;
+    text-decoration: none;
+}

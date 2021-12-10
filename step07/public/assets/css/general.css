@@ -1,0 +1,27 @@
+body {
+    font-family: 'Aldrich', sans-serif;
+    background-color: #f5e8e7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.page_title {
+    margin: 1em;
+    padding: 5px;
+    background-color: #ADFFB6;
+    text-align: center;
+    border-radius: 15px;
+    color: #425E3C;
+}
+
+.form-control{
+    background-color: #fcf3f2;
+    box-shadow: none !important;
+}
+.form-control:read-write{
+    background-color: #fcf3f2 !important;
+    box-shadow: none !important;
+    border-color: #e7d5d7;
+}

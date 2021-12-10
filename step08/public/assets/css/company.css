@@ -1,0 +1,45 @@
+.comp {
+    margin: 1em;
+    padding: 0.1em;
+    background-color: #f5e8e7;
+    border-color: #9e4b56;
+    width: 100%;
+}
+
+.comp_title {
+    background-color: #e7d5d7;
+    border-radius: .25rem;
+    max-width: 100% !important;
+}
+
+.comp_link {
+    color : #3f1d21;
+    text-decoration: none;
+}
+
+.comp_link:hover {
+    color : #9e4b56;
+    text-decoration: none;
+}
+
+.comp-info {
+    text-align: right;
+}
+
+.comp-text  {
+    text-indent: 2em;
+}
+
+.comp-btn {
+    margin: 0;
+    width: 100%;
+}
+
+.comp-btn-text{
+    color : #e7d5d7 !important;
+    text-decoration: none;
+}
+
+.show-less {
+    margin-top: 0.2em;
+}

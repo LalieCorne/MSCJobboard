@@ -1,0 +1,48 @@
+#ad-modal {
+    background-color: #f5e8e7;
+    border-color: #5a2b32;
+    width: 100% !important;
+}
+
+#ad-modal_header {
+    background-color: #e7d5d7;
+    border-bottom: #9e4b56;
+}
+
+#ad-modal_footer{
+    border-top: #9e4b56;
+}
+
+#ad-modal-content{
+    margin-top: 0.7em;
+}
+
+#close-ad-modal {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .5;
+}
+
+#close-ad-modal:hover {
+    background-color: #9e4b56;
+}
+
+#applyToAd{
+    height: 2.5em;
+    border-radius: .25rem;
+    width: 8em;
+    border: 1px solid transparent;
+    color: #f5e7e8;
+    background-color: #9e4b56;
+    border-color: #9e4b56;
+}
+#applyToAd:hover {
+    color: #f5e7e8;
+    background-color: #884049;
+    border-color: #884049;
+}

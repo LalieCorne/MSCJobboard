@@ -1,0 +1,32 @@
+.card{
+    width: 95% !important;
+}
+.desc-applyer{
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0.5em;
+}
+@media (max-width:767px){
+    .d-img{
+        display: flex;
+        justify-content: center;
+    }
+    .userImgProfile{
+        width: 25% !important;
+        margin: 1em;
+        float: left;
+    }
+    .info-applyer{
+        display: flex;
+        justify-content: right;
+        text-align: right;
+    }
+}
+
+@media (min-width:767px){
+    .userImgProfile{
+        width: 10% !important;
+        margin: 1em;
+        text-align: center;
+    }
+}

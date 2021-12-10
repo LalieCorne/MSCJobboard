@@ -1,0 +1,19 @@
+h1 {
+   color: #425E3C;
+   font-size: 4em;
+}
+a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #425E3C !important;
+}
+nav {
+    background-color: #87E990;
+}
+
+#title{
+    vertical-align: middle;
+    background-color: #ADFFB6;
+    text-align: center;
+    height: 5em;
+}

@@ -1,0 +1,65 @@
+.apply-input {
+    width: 100%;
+}
+
+.card_apply {
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: #e7d5d7;
+    border: 1px solid #9e4b56;
+    flex-wrap: wrap;
+}
+
+.submit_button {
+    width: 100%;
+    margin: 0;
+}
+
+.red_close_button {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .5;
+}
+
+.red_close_button:hover {
+    background-color: #9e4b56;
+}
+
+.apply-modal {
+    background-color: #f5e8e7;
+    border-color: #9e4b56;
+    width: 100% !important;
+}
+
+.apply-modal_header {
+    background-color: #e7d5d7;
+    border-bottom: #6d333b;
+}
+
+.apply-modal_footer{
+    border-top: #9e4b56;
+}
+
+.apply-modal-content{
+    margin-top: 0.7em;
+}
+
+.file_toast {
+    background-color: #f5e8e7;
+    border: 1px solid #9e4b56;
+    flex-wrap: wrap;
+}
+
+.file_toast-header  {
+    align-items: center;
+    background-color: #e7d5d7;
+}
+
+#errorMsgCreateAd {
+    color : #9e4b56;
+}

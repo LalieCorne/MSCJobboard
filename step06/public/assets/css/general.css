@@ -1,0 +1,36 @@
+body {
+    font-family: 'Aldrich', sans-serif;
+    background-color: #f5e8e7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.red_button{
+    margin: 1em;
+    height: 2.5em;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    color: #f5e7e8;
+    background-color: #9e4b56;
+    border-color: #9e4b56;
+}
+
+.red_button:hover {
+    color: #f5e7e8;
+    background-color: #884049;
+    border-color: #884049;
+}
+.form-control{
+    background-color: #fcf3f2;
+    box-shadow: none !important;
+}
+.form-control{
+    background-color: black;
+}
+.form-control:read-write{
+    background-color: #fcf3f2 !important;
+    box-shadow: none !important;
+    border-color: #e7d5d7;
+}

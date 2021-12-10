@@ -1,0 +1,35 @@
+h1 {
+    color: #425E3C;
+    font-size: 3.5gitem !important; 
+}
+a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #425E3C !important;
+}
+nav {
+    background-color: #87E990;
+}
+
+#title{
+    vertical-align: middle;
+    background-color: #ADFFB6;
+    text-align: center;
+    height: 5em;
+}
+
+.userImg {
+    width: 1.5em;
+}
+
+.dropdownStyle{
+    background-color: #fcf3f2 !important;
+}
+.dropdownHover:hover{
+    background-color: #f5e8e7 !important;
+}
+.header_menu {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #425E3C !important;
+}

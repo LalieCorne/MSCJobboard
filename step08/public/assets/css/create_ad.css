@@ -1,0 +1,28 @@
+.create_ad {
+    margin: 5px;
+    padding: 1em;
+    width: 80em;
+    background-color: #f5e8e7;
+    border-color: #9e4b56;
+}
+.create_ad_title {
+    background-color: #e7d5d7;
+    border-radius: .25rem;
+    max-width: 100% !important;
+}
+
+
+.form-select{
+    background-color: #fcf3f2 !important;
+    box-shadow: none !important;
+}
+
+.form-select:read-write{
+    background-color: #fcf3f2 !important;
+    box-shadow: none !important;
+    border-color: #e7d5d7;
+}
+
+#errorMsgApply {
+    color : #9e4b56;
+}

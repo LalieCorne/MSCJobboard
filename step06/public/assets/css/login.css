@@ -1,0 +1,34 @@
+.linkInsc {
+    text-decoration: none !important;
+    font-size: 0.9em !important;
+}
+
+#ad {
+    margin: 5px;
+    padding: 1em;
+    background-color: #f5e8e7;
+    border-color: #9e4b56;
+}
+#ad_title {
+    background-color: #e7d5d7;
+    border-radius: .25rem;
+    max-width: 100% !important;
+}
+
+select{
+    background-color: #fcf3f2 !important;
+    border-color: #e7d5d7 !important;
+}
+select:checked{
+    background-color: #e7d5d7 ;
+}
+
+.form-check-input{
+    background-color: #fcf3f2;
+}
+.form-check-input:checked{
+    background-color: #9e4b56 !important;
+    border-color: #9e4b56 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}

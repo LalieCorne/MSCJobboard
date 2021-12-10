@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Aldrich', sans-serif;
+    background-color: #f5e8e7;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-footer{
+    flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0;
+    background-color: #e7d5d7 !important;
+    color: #9e4b56;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.page_title {
+    margin: 1em;
+    padding: 5px;
+    background-color: #ADFFB6;
+    text-align: center;
+    border-radius: 15px;
+    color: #425E3C;
+}
+
+.linkInsc {
+    text-decoration: none !important;
+    font-size: 0.9em !important;
+}
+
+#ad {
+    margin: 5px;
+    padding: 2px;
+    background-color: #f5e8e7;
+    border-color: #9e4b56;
+}
+#ad_title {
+    background-color: #e7d5d7;
+    border-radius: .25rem;
+    max-width: 100% !important;
+}
+
+.red_button{
+    margin: 1em;
+    height: 2.5em;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    color: #f5e7e8;
+    background-color: #9e4b56;
+    border-color: #9e4b56;
+}
+
+.red_button:hover {
+    color: #f5e7e8;
+    background-color: #884049;
+    border-color: #884049;
+}
+
+.form-control{
+    background-color: #fcf3f2;
+    box-shadow: none !important;
+}
+
+.form-control:read-write{
+    background-color: #fcf3f2 !important;
+    box-shadow: none !important;
+    border-color: #e7d5d7;
+}
+
+.green_button{
+    margin : 2px;
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    color : #e7d5d7;
+    background-color: #53724c;
+    border-color: #53724c;
+}
+.green_button:hover {
+    background-color: #425E3C;
+    border-color: #425E3C;
+}
+
+.green_close_button {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .5;
+}
+
+.green_close_button:hover {
+    background-color: #53724c;
+}
